@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* main css */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* header start here  */
+.header {
+  width: 100%;
+  height: 768px;
+  background-color: #000000;
+  padding: 40px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 20px 0;
+}
+
+.nav .logo-wrapper {
+}
+.nav .nav-menu a {
+  color: #ddd;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  /* font-weight: 400; */
+  line-height: 32px; /* 160% */
+  padding: 0 12px;
+}
+.nav .sign-up a {
+  color: #ddd;
+  padding: 12px 24px;
+  border-radius: 18px;
+  background: #3417ff;
+}
+/* hero box start here */
+.hero-box-wrapper {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  color: #ffffff;
+}
+/* Hero box left start here */
+.hero-box-wrapper .hero-box-left {
+  width: 50%;
+  margin-right: 100px;
+}
+.hero-box-wrapper .hero-box-left h2 {
+  font-size: 78px;
+  font-weight: 600;
+  line-height: 88px; /* 112.821% */
+  margin-bottom: 18px;
+}
+
+.hero-box-wrapper .hero-box-left p {
+  color: #dddfdd;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 32px; /* 160% */
+  margin-bottom: 52px;
+}
+
+.hero-box-wrapper .hero-box-left .cta-btn-wrapper .cta-btn {
+  color: #ddd;
+  padding: 22px 42px;
+  background-color: #3417ff;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.hero-box-wrapper .hero-box-left .cta-btn-wrapper .cta-btn-2 {
+  border-radius: 15px;
+  border: 1px solid #cbbcbc;
+  padding: 22px 42px;
+}
+
+.hero-box-wrapper .hero-box-left .customer-prove-wrapper {
+  margin-top: 112px;
+  color: #e6e6e6;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+/* Hero box left start here */
+/* Hero box right start here */
+.hero-box-wrapper .hero-box-right {
+  width: 50%;
+  width: 470px;
+  height: 620px;
+  flex-shrink: 0;
+  border-radius: 31px;
+  background: url(/images/Rectangle\ 5380.png), lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* Hero box right end here */
+/* hero box end here */
+/* header end here  */
