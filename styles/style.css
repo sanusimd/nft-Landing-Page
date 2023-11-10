@@ -89,10 +89,25 @@ body {
   color: #e6e6e6;
   font-family: Poppins;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 100;
   line-height: 32px; /* 160% */
+  display: flex;
+  /* justify-content: space-between; */
+}
+.hero-box-wrapper .hero-box-left .customer-prove-wrapper .project-wrapper {
+  margin-right: 32px;
+}
+.hero-box-wrapper .hero-box-left .customer-prove-wrapper .project-client {
+  display: block;
+}
+.hero-box-wrapper .hero-box-left .customer-prove-wrapper .client-satisfaction {
+  display: block;
 }
 
+.hero-box-wrapper .hero-box-left .customer-prove-wrapper .number-client {
+  color: #3417ff;
+  font-weight: 600;
+}
 /* Hero box left start here */
 /* Hero box right start here */
 .hero-box-wrapper .hero-box-right {
